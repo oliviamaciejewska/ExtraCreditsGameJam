@@ -18,7 +18,6 @@ Objects {
   ChildIds: 16813558807825262224
   ChildIds: 14713340454944924967
   ChildIds: 10005074784157121906
-  ChildIds: 14982843161775482339
   ChildIds: 18134902209994698387
   UnregisteredParameters {
   }
@@ -54,51 +53,11 @@ Objects {
   }
   Terrain {
     Material {
-      Id: 12247401564494519920
+      Id: 8713249409843689929
     }
     VoxelSize: 100
     OctreeDepth: 5
     GeneratorID: "DEPRECATED"
-  }
-}
-Objects {
-  Id: 14982843161775482339
-  Name: "Default Floor"
-  Transform {
-    Location {
-      X: 3850
-      Z: 3050
-    }
-    Rotation {
-    }
-    Scale {
-      X: 50
-      Y: 50
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
   }
 }
 Objects {
@@ -138,12 +97,12 @@ Objects {
   Transform {
     Location {
       X: 3850
-      Z: 3100
+      Z: 2000
     }
     Rotation {
       Pitch: -45.8452454
-      Yaw: 33.9371681
-      Roll: 8.92734146
+      Yaw: 33.9372063
+      Roll: 8.92736626
     }
     Scale {
       X: 1
@@ -239,7 +198,7 @@ Objects {
   Transform {
     Location {
       X: 3850
-      Z: 3100
+      Z: 2000
     }
     Rotation {
     }
@@ -320,7 +279,7 @@ Objects {
   Transform {
     Location {
       X: 3850
-      Z: 3100
+      Z: 2000
     }
     Rotation {
     }
@@ -504,7 +463,7 @@ Objects {
   Transform {
     Location {
       X: 3850
-      Z: 3600
+      Z: 2500
     }
     Rotation {
     }
@@ -623,7 +582,7 @@ Objects {
   Transform {
     Location {
       X: 3850
-      Z: 3215
+      Z: 2115
     }
     Rotation {
     }
