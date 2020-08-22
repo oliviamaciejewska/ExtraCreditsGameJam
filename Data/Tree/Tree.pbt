@@ -19,6 +19,7 @@ Objects {
   ChildIds: 14713340454944924967
   ChildIds: 10005074784157121906
   ChildIds: 14982843161775482339
+  ChildIds: 18134902209994698387
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -31,11 +32,42 @@ Objects {
   }
 }
 Objects {
+  Id: 18134902209994698387
+  Name: "Terrain"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Terrain {
+    Material {
+      Id: 12247401564494519920
+    }
+    VoxelSize: 100
+    OctreeDepth: 5
+    GeneratorID: "DEPRECATED"
+  }
+}
+Objects {
   Id: 14982843161775482339
   Name: "Default Floor"
   Transform {
     Location {
-      Z: -50
+      X: 3850
+      Z: 3050
     }
     Rotation {
     }
@@ -105,11 +137,13 @@ Objects {
   Name: "Sun Light"
   Transform {
     Location {
+      X: 3850
+      Z: 3100
     }
     Rotation {
       Pitch: -45.8452454
-      Yaw: 33.9371338
-      Roll: 8.92731857
+      Yaw: 33.9371681
+      Roll: 8.92734146
     }
     Scale {
       X: 1
@@ -204,6 +238,8 @@ Objects {
   Name: "Skylight"
   Transform {
     Location {
+      X: 3850
+      Z: 3100
     }
     Rotation {
     }
@@ -283,6 +319,8 @@ Objects {
   Name: "Sky Dome"
   Transform {
     Location {
+      X: 3850
+      Z: 3100
     }
     Rotation {
     }
@@ -465,7 +503,8 @@ Objects {
   Name: "Third Person Camera"
   Transform {
     Location {
-      Z: 500
+      X: 3850
+      Z: 3600
     }
     Rotation {
     }
@@ -583,7 +622,8 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      Z: 115
+      X: 3850
+      Z: 3215
     }
     Rotation {
     }
