@@ -5,8 +5,8 @@
 Take Care
 
 ### Extra Credits
-Extra Multiplayer (Core Challenge)
-Extra Historian
-Extra Distance
-Exta Translation
-Extra Retro
+-Extra Multiplayer (Core Challenge)
+-Extra Historian
+-Extra Distance
+-Exta Translation
+-Extra Retro
