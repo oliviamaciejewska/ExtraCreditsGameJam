@@ -24,6 +24,10 @@ Objects {
             A: 1
           }
         }
+        Overrides {
+          Name: "bp:Intensity"
+          Float: 2.48344278
+        }
       }
     }
     ParameterOverrideMap {
@@ -95,7 +99,7 @@ Objects {
       value {
         Overrides {
           Name: "bp:Intensity"
-          Float: 0.0538187884
+          Float: 1.02686715
         }
       }
     }
