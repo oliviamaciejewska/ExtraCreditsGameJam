@@ -1,6 +1,54 @@
 ﻿Name: "Land_and_Skybox"
 RootId: 12932394556429894334
 Objects {
+  Id: 8568157196526581172
+  Name: "Rain Volume VFX"
+  Transform {
+    Location {
+      X: -350
+      Y: -900
+      Z: 3650
+    }
+    Rotation {
+    }
+    Scale {
+      X: 100
+      Y: 100
+      Z: 1
+    }
+  }
+  ParentId: 12932394556429894334
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Density"
+      Float: 10
+    }
+    Overrides {
+      Name: "bp:Velocity"
+      Vector {
+        X: 3
+        Z: -19.8
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 10056606042697039
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
+  }
+}
+Objects {
   Id: 8300771266388715626
   Name: "Sky Overcast 01"
   Transform {
@@ -96,8 +144,8 @@ Objects {
           Name: "bp:color"
           Color {
             R: 1
-            G: 0.410000324
-            B: 0.410000026
+            G: 0.843178809
+            B: 0.63
             A: 1
           }
         }
@@ -108,7 +156,7 @@ Objects {
       value {
         Overrides {
           Name: "bp:Intensity"
-          Float: 1.33355308
+          Float: 2.05520129
         }
         Overrides {
           Name: "bp:Ambient Image"
@@ -119,8 +167,8 @@ Objects {
         Overrides {
           Name: "bp:Tint Color"
           Color {
-            G: 0.0298012644
-            B: 0.179999948
+            R: 0.279999971
+            G: 0.100132436
             A: 1
           }
         }

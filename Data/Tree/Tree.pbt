@@ -21,6 +21,11 @@ Objects {
   ChildIds: 18134902209994698387
   ChildIds: 9787735103849288229
   ChildIds: 3435171065999402693
+  ChildIds: 8098846583130494672
+  ChildIds: 4702968618012875301
+  ChildIds: 16201080186554486059
+  ChildIds: 6069014406872290563
+  ChildIds: 2193507599362394889
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -30,6 +35,187 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 2193507599362394889
+  Name: "Smoke Volume VFX"
+  Transform {
+    Location {
+      X: 2400
+      Y: 3850
+      Z: 2250
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2718718240000731422
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
+  }
+}
+Objects {
+  Id: 6069014406872290563
+  Name: "Craftsman Wall 01"
+  Transform {
+    Location {
+      X: 3400
+      Y: 4050
+      Z: 2250
+    }
+    Rotation {
+      Yaw: -149.999908
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4282920344287573610
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 16201080186554486059
+  Name: "Craftsman Roof 01 - End with Wall Template"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 18090161168901983498
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Craftsman Roof 01 - End with Wall Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2707.17944
+            Y: 3650
+            Z: 2850
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 119.999985
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 2635859889562205911
+    }
+  }
+}
+Objects {
+  Id: 4702968618012875301
+  Name: "Craftsman Wall 01 Window 2x"
+  Transform {
+    Location {
+      X: 2707.17944
+      Y: 3650
+      Z: 2250
+    }
+    Rotation {
+      Yaw: 119.999939
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8972779060290890181
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 8098846583130494672
+  Name: "Sounds"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Sounds"
   }
 }
 Objects {
