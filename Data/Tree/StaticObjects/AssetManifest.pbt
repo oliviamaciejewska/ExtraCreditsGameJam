@@ -161,6 +161,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8972779060290890181
+  Name: "Craftsman Wall 01 Window 2x"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_wall_001_window2x"
+  }
+}
+Assets {
   Id: 7671295571151450917
   Name: "Bone Human Scattered 02"
   PlatformAssetType: 1
@@ -248,6 +257,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_two-by-four_3m"
+  }
+}
+Assets {
+  Id: 4282920344287573610
+  Name: "Craftsman Wall 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_wall_001"
   }
 }
 Assets {
