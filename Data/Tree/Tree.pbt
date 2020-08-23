@@ -19,6 +19,8 @@ Objects {
   ChildIds: 14713340454944924967
   ChildIds: 12932394556429894334
   ChildIds: 18134902209994698387
+  ChildIds: 9750604505195852627
+  ChildIds: 16084075309379204719
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -28,6 +30,58 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 16084075309379204719
+  Name: "StaticAssets"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "StaticAssets"
+  }
+}
+Objects {
+  Id: 9750604505195852627
+  Name: "AbilityTutorial"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "AbilityTutorial"
   }
 }
 Objects {
@@ -253,7 +307,6 @@ Objects {
       }
       AppearanceChannelingTime: 2
       MountChannelingTime: 2
-      FlipOnMultiJump: true
     }
   }
 }
