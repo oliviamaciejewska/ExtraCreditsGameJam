@@ -26,7 +26,7 @@ Objects {
         }
         Overrides {
           Name: "bp:Intensity"
-          Float: 2.48344278
+          Float: 0.5
         }
       }
     }
@@ -70,7 +70,7 @@ Objects {
         }
         Overrides {
           Name: "bp:Fog Density"
-          Float: 8.42917538
+          Float: 8.54583454
         }
         Overrides {
           Name: "bp:Falloff"
@@ -92,6 +92,15 @@ Objects {
           Name: "bp:View Distance"
           Float: 2012.52612
         }
+        Overrides {
+          Name: "bp:color"
+          Color {
+            R: 1
+            G: 0.410000324
+            B: 0.410000026
+            A: 1
+          }
+        }
       }
     }
     ParameterOverrideMap {
@@ -99,7 +108,21 @@ Objects {
       value {
         Overrides {
           Name: "bp:Intensity"
-          Float: 1.02686715
+          Float: 1.33355308
+        }
+        Overrides {
+          Name: "bp:Ambient Image"
+          Enum {
+            Value: "mc:eambientcubemapssmall:16"
+          }
+        }
+        Overrides {
+          Name: "bp:Tint Color"
+          Color {
+            G: 0.0298012644
+            B: 0.179999948
+            A: 1
+          }
         }
       }
     }
