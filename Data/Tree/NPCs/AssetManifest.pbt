@@ -8,15 +8,6 @@
   }
 }
 Assets {
-  Id: 13043298331982480779
-  Name: "Weapon Guide 1hand_pistol"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "weapon_guide_pistol_BP_ref"
-  }
-}
-Assets {
   Id: 11816225537595997241
   Name: "Female Generic Pain Groan 02 SFX"
   PlatformAssetType: 7
