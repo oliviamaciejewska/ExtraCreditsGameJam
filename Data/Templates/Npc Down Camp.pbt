@@ -45,24 +45,12 @@
           }
         }
         ParentId: 15696987775507161530
-<<<<<<< HEAD
         ChildIds: 9934369115054944617
         ChildIds: 773917075511288466
         UnregisteredParameters {
           Overrides {
             Name: "cs:RespawnDelay"
             Float: 1
-=======
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 6749296926700622752
->>>>>>> d15580227e5acfbdb3520f2db7f2ebbf83542604
           }
           Overrides {
             Name: "cs:RoundStartSpawn"
@@ -100,13 +88,8 @@
         }
       }
       Objects {
-<<<<<<< HEAD
         Id: 9934369115054944617
         Name: "UniversalObjectSpawner"
-=======
-        Id: 6820319603459978638
-        Name: "Minion Spawn Point"
->>>>>>> d15580227e5acfbdb3520f2db7f2ebbf83542604
         Transform {
           Location {
           }
