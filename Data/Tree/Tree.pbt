@@ -156,7 +156,7 @@ Objects {
   ParentId: 4781671109827199097
   ChildIds: 4226120016796708080
   ChildIds: 724324913679364851
-  ChildIds: 8032078563737336202
+  ChildIds: 15349947930373506642
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -170,8 +170,8 @@ Objects {
   }
 }
 Objects {
-  Id: 8032078563737336202
-  Name: "Static Player Equipment"
+  Id: 15349947930373506642
+  Name: "StaticPlayerEquipmentRifle"
   Transform {
     Scale {
       X: 1
@@ -186,36 +186,12 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "Static Player Equipment"
-        }
-        Overrides {
-          Name: "cs:EquipmentTemplate"
-          AssetReference {
-            Id: 589569617274327960
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
+          String: "StaticPlayerEquipmentRifle"
         }
       }
     }
     TemplateAsset {
-      Id: 18156663902003132879
+      Id: 7951922219611549709
     }
   }
 }
