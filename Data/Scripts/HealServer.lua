@@ -1,7 +1,8 @@
-﻿local trigger = script.parent
+﻿local healTrigger = script.parent
 
-trigger.beginOverlapEvent(function(trigger, other)
-	if other:IsA("Player") then
-		Events.BroadcastToPlayer(other, "Healed")
-	end
-end)
+function OnInteracted(healTrigger, player)
+	player.animationStance = "unarmed_use_bandage"
+	healTrigger.isInteractable = false
+end
+
+healTrigger.interactedEvent:Connect(OnInteracted)

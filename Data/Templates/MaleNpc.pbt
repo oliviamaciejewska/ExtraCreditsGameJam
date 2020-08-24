@@ -1,13 +1,13 @@
 ﻿Assets {
-  Id: 8851311647763733831
-  Name: "FemaleNpc"
+  Id: 6665071061032983263
+  Name: "MaleNpc"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 8427878904811658107
+      RootId: 14795800877796877819
       Objects {
-        Id: 8427878904811658107
-        Name: "FemaleNpc"
+        Id: 14795800877796877819
+        Name: "MaleNpc"
         Transform {
           Scale {
             X: 1
@@ -15,9 +15,9 @@
             Z: 1
           }
         }
-        ParentId: 9787735103849288229
-        ChildIds: 9833159777204679988
-        ChildIds: 10644472930969991452
+        ParentId: 4781671109827199097
+        ChildIds: 15586844076518198629
+        ChildIds: 5025781033435867175
         UnregisteredParameters {
           Overrides {
             Name: "cs:ObjectId"
@@ -48,11 +48,11 @@
         }
       }
       Objects {
-        Id: 9833159777204679988
+        Id: 15586844076518198629
         Name: "HealTrigger"
         Transform {
           Location {
-            Z: 100
+            Z: -7.84521484
           }
           Rotation {
           }
@@ -62,8 +62,7 @@
             Z: 1
           }
         }
-        ParentId: 8427878904811658107
-        ChildIds: 9165364498006281675
+        ParentId: 14795800877796877819
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -86,38 +85,7 @@
         }
       }
       Objects {
-        Id: 9165364498006281675
-        Name: "HealServer"
-        Transform {
-          Location {
-            X: -3850
-            Y: -150
-            Z: -1800
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 9833159777204679988
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 13664768874240926571
-          }
-        }
-      }
-      Objects {
-        Id: 10644472930969991452
+        Id: 5025781033435867175
         Name: "ClientContext"
         Transform {
           Location {
@@ -131,9 +99,9 @@
             Z: 1
           }
         }
-        ParentId: 8427878904811658107
-        ChildIds: 7369077327759234295
-        ChildIds: 18309599995483746283
+        ParentId: 14795800877796877819
+        ChildIds: 11660942993259137299
+        ChildIds: 16349302869364711055
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -145,7 +113,7 @@
         }
       }
       Objects {
-        Id: 7369077327759234295
+        Id: 11660942993259137299
         Name: "Heal"
         Transform {
           Location {
@@ -158,8 +126,12 @@
             Z: 1
           }
         }
-        ParentId: 10644472930969991452
+        ParentId: 5025781033435867175
         UnregisteredParameters {
+          Overrides {
+            Name: "cs:isHealed"
+            Bool: false
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -174,11 +146,11 @@
         }
       }
       Objects {
-        Id: 18309599995483746283
-        Name: "FemaleDown"
+        Id: 16349302869364711055
+        Name: "ManDown"
         Transform {
           Location {
-            Z: 157.845215
+            Z: 96.8764648
           }
           Rotation {
           }
@@ -188,9 +160,8 @@
             Z: 1
           }
         }
-        ParentId: 10644472930969991452
-        ChildIds: 8500825071437654124
-        ChildIds: 8405552489630018231
+        ParentId: 5025781033435867175
+        ChildIds: 1136543645111989052
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -217,7 +188,7 @@
         }
         CoreMesh {
           MeshAsset {
-            Id: 17699712224716592003
+            Id: 11966979374252212530
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -225,6 +196,7 @@
           }
           EnableCameraCollision: true
           AnimatedMesh {
+            AnimationStance: "unarmed_"
             AnimationPlaybackRateMultiplier: 1
             PlayOnStartAnimation {
               Animation: "unarmed_death"
@@ -235,7 +207,7 @@
         }
       }
       Objects {
-        Id: 8500825071437654124
+        Id: 1136543645111989052
         Name: "Female Generic Pain Groan 02 SFX"
         Transform {
           Location {
@@ -248,7 +220,7 @@
             Z: 1
           }
         }
-        ParentId: 18309599995483746283
+        ParentId: 16349302869364711055
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -269,47 +241,14 @@
           IsAttenuationEnabled: true
         }
       }
-      Objects {
-        Id: 8405552489630018231
-        Name: "effect"
-        Transform {
-          Location {
-            Y: 50
-            Z: -100
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 18309599995483746283
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Blueprint {
-          BlueprintAsset {
-            Id: 17069761961690292468
-          }
-          TeamSettings {
-          }
-          Vfx {
-          }
-        }
-      }
     }
     Assets {
-      Id: 17699712224716592003
-      Name: "Fantasy Human Gal 1"
+      Id: 11966979374252212530
+      Name: "Fantasy Human Guy 1"
       PlatformAssetType: 17
       PrimaryAsset {
         AssetType: "AnimatedMeshAssetRef"
-        AssetId: "npc_human_gal_fantasy_003_ref"
+        AssetId: "npc_human_guy_fantasy_001_ref"
       }
     }
     Assets {
@@ -319,15 +258,6 @@
       PrimaryAsset {
         AssetType: "AudioAssetRef"
         AssetId: "sfx_female_generic_pain_groan_02_Cue_ref"
-      }
-    }
-    Assets {
-      Id: 17069761961690292468
-      Name: "Basic Explosion VFX"
-      PlatformAssetType: 8
-      PrimaryAsset {
-        AssetType: "VfxBlueprintAssetRef"
-        AssetId: "fxbp_explosion"
       }
     }
     PrimaryAssetId {

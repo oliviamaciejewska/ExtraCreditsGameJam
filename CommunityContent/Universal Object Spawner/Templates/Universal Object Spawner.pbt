@@ -1,52 +1,23 @@
 ﻿Assets {
-  Id: 4658074148809560670
-  Name: "Npc Down Camp"
+  Id: 7577206932598821004
+  Name: "Universal Object Spawner"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 15696987775507161530
+      RootId: 12724310867555688579
       Objects {
-        Id: 15696987775507161530
-        Name: "Npc Down Camp"
-        Transform {
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 9787735103849288229
-        ChildIds: 7091976859957654522
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Folder {
-          IsGroup: true
-        }
-      }
-      Objects {
-        Id: 7091976859957654522
+        Id: 12724310867555688579
         Name: "Universal Object Spawner"
         Transform {
-          Location {
-            X: 150
-            Y: -250
-            Z: -100
-          }
-          Rotation {
-          }
           Scale {
             X: 1
             Y: 1
             Z: 1
           }
         }
-        ParentId: 15696987775507161530
-        ChildIds: 9934369115054944617
-        ChildIds: 773917075511288466
+        ParentId: 4781671109827199097
+        ChildIds: 6567354516116234768
+        ChildIds: 15583465482368971243
         UnregisteredParameters {
           Overrides {
             Name: "cs:RespawnDelay"
@@ -59,13 +30,13 @@
           Overrides {
             Name: "cs:Template1"
             AssetReference {
-              Id: 13425353885042363499
+              Id: 6783027950595406249
             }
           }
           Overrides {
             Name: "cs:Template2"
             AssetReference {
-              Id: 13425353885042363499
+              Id: 4793152339781886782
             }
           }
           Overrides {
@@ -88,7 +59,7 @@
         }
       }
       Objects {
-        Id: 9934369115054944617
+        Id: 6567354516116234768
         Name: "UniversalObjectSpawner"
         Transform {
           Location {
@@ -101,18 +72,18 @@
             Z: 1
           }
         }
-        ParentId: 7091976859957654522
+        ParentId: 12724310867555688579
         UnregisteredParameters {
           Overrides {
             Name: "cs:Root"
             ObjectReference {
-              SubObjectId: 7091976859957654522
+              SubObjectId: 12724310867555688579
             }
           }
           Overrides {
             Name: "cs:ShowHideObject"
             ObjectReference {
-              SubObjectId: 773917075511288466
+              SubObjectId: 15583465482368971243
             }
           }
         }
@@ -124,12 +95,12 @@
         }
         Script {
           ScriptAsset {
-            Id: 6609951467456598139
+            Id: 8112264649648835692
           }
         }
       }
       Objects {
-        Id: 773917075511288466
+        Id: 15583465482368971243
         Name: "Cylinder"
         Transform {
           Location {
@@ -144,7 +115,7 @@
             Z: 2
           }
         }
-        ParentId: 7091976859957654522
+        ParentId: 12724310867555688579
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -217,5 +188,9 @@
       AssetId: "None"
     }
   }
+  Marketplace {
+    Description: "Spawns any kind of Core Object. If it\'s an equipment, then when it\'s equipped by a player the next object is spawned. If it\'s not equipment, it will trigger the respawn based on the object being destroyed, which is a common pattern for consumables/powerups.\r\n\r\nCan randomly select between different objects to spawn, just add all the possible objects as custom properties to the root of the spawner. Custom properties added this way don\'t need specific names."
+  }
   SerializationVersion: 62
+  DirectlyPublished: true
 }

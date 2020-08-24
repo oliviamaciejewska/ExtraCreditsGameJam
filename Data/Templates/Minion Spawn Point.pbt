@@ -15,7 +15,7 @@
             Z: 1
           }
         }
-        ParentId: 4262778278684556526
+        ParentId: 4781671109827199097
         UnregisteredParameters {
           Overrides {
             Name: "cs:npc"
@@ -24,6 +24,7 @@
             }
           }
         }
+        WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
