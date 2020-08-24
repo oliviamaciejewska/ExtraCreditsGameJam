@@ -15,13 +15,13 @@ Objects {
     }
   }
   ChildIds: 7367735074338159388
-  ChildIds: 16813558807825262224
+  ChildIds: 13141648567393240325
   ChildIds: 14713340454944924967
   ChildIds: 12932394556429894334
   ChildIds: 18134902209994698387
   ChildIds: 9787735103849288229
   ChildIds: 3435171065999402693
-  ChildIds: 8098846583130494672
+  ChildIds: 11079301955009945878
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -34,13 +34,9 @@ Objects {
   }
 }
 Objects {
-  Id: 8098846583130494672
-  Name: "Sounds"
+  Id: 11079301955009945878
+  Name: "BasicPlayerRifle"
   Transform {
-    Location {
-    }
-    Rotation {
-    }
     Scale {
       X: 1
       Y: 1
@@ -48,15 +44,36 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Sounds"
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14514439793178878267
+      value {
+        Overrides {
+          Name: "Name"
+          String: "BasicPlayerRifle"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 589569617274327960
+    }
   }
 }
 Objects {
@@ -183,6 +200,7 @@ Objects {
   ParentId: 4781671109827199097
   ChildIds: 4226120016796708080
   ChildIds: 724324913679364851
+  ChildIds: 15349947930373506642
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -193,6 +211,38 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 15349947930373506642
+  Name: "StaticPlayerEquipmentRifle"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14713340454944924967
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16657464430720987128
+      value {
+        Overrides {
+          Name: "Name"
+          String: "StaticPlayerEquipmentRifle"
+        }
+        Overrides {
+          Name: "cs:EquipmentTemplate"
+          AssetReference {
+            Id: 589569617274327960
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7951922219611549709
+    }
   }
 }
 Objects {
@@ -342,11 +392,12 @@ Objects {
   }
 }
 Objects {
-  Id: 16813558807825262224
-  Name: "Spawn Point"
+  Id: 13141648567393240325
+  Name: "SpawnPoints"
   Transform {
     Location {
       X: 3850
+      Y: 300
       Z: 1900
     }
     Rotation {
@@ -358,16 +409,15 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  UnregisteredParameters {
-  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  PlayerSpawnPoint {
-    TeamInt: 1
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "SpawnPoints"
   }
 }
 Objects {
@@ -385,6 +435,7 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  ChildIds: 2393982453413112798
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -396,7 +447,40 @@ Objects {
     GameSettings {
       RagdollOnDeath: true
       ChatMode {
-        Value: "mc:echatmode:teamandall"
+        Value: "mc:echatmode:allonly"
+      }
+    }
+  }
+}
+Objects {
+  Id: 2393982453413112798
+  Name: "Team Settings"
+  Transform {
+    Location {
+      X: 4100
+      Y: 700
+      Z: 1850
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7367735074338159388
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Settings {
+    IsDefault: true
+    TeamSettings {
+      TeamMode_v2 {
+        Value: "mc:eteammode:ffa"
       }
     }
   }
