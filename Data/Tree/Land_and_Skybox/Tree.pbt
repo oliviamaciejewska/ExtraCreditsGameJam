@@ -26,7 +26,15 @@ Objects {
         }
         Overrides {
           Name: "bp:Intensity"
-          Float: 0.5
+          Float: 1.46736288
+        }
+        Overrides {
+          Name: "bp:Sun Disc Color"
+          Color {
+            R: 0.679999948
+            G: 3.24249243e-07
+            A: 1
+          }
         }
       }
     }
@@ -119,8 +127,9 @@ Objects {
         Overrides {
           Name: "bp:Tint Color"
           Color {
-            G: 0.0298012644
-            B: 0.179999948
+            R: 1
+            G: 1
+            B: 1
             A: 1
           }
         }
