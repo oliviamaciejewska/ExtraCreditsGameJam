@@ -64,11 +64,14 @@
         }
         ParentId: 8427878904811658107
 <<<<<<< HEAD
+<<<<<<< HEAD
         ChildIds: 9165364498006281675
         UnregisteredParameters {
         }
 =======
 >>>>>>> d15580227e5acfbdb3520f2db7f2ebbf83542604
+=======
+>>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"

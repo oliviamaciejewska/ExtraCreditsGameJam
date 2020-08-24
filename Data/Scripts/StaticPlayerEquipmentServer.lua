@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿--[[poop
+=======
+﻿--[[
+>>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
 Copyright 2019 Manticore Games, Inc. 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated

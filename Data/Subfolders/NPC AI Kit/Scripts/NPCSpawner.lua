@@ -93,7 +93,7 @@ function Despawn()
 	isSpawning = false
 	
 	for _,m in pairs(minions) do
-		if m:GetCustomProperty("isHealed") == true then
+		if Object.IsValid(m) then
 			--print("Despawning minion " .. tostring(m))
 			
 			if DESPAWN_VFX then
