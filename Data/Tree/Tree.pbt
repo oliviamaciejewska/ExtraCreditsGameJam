@@ -23,7 +23,10 @@ Objects {
   ChildIds: 3435171065999402693
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   ChildIds: 11079301955009945878
+=======
+>>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
 =======
 >>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
 =======
@@ -40,6 +43,7 @@ Objects {
   }
 }
 Objects {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   Id: 11079301955009945878
@@ -85,6 +89,8 @@ Objects {
   }
 }
 Objects {
+=======
+>>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
 =======
 >>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
 =======
@@ -246,12 +252,15 @@ Objects {
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Overrides {
           Name: "cs:EquipmentTemplate"
           AssetReference {
             Id: 589569617274327960
           }
         }
+=======
+>>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
 =======
 >>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
 =======

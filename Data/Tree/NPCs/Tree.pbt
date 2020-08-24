@@ -4,9 +4,12 @@ Objects {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   Id: 12590039576605442748
   Name: "FemaleNpc"
 =======
+=======
+>>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
 =======
 >>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
 =======
@@ -25,9 +28,12 @@ Objects {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   WantsNetworking: true
 =======
 >>>>>>> d15580227e5acfbdb3520f2db7f2ebbf83542604
+=======
+>>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
 =======
 >>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
 =======
@@ -43,12 +49,15 @@ Objects {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       key: 8427878904811658107
       value {
         Overrides {
           Name: "Name"
           String: "FemaleNpc"
 =======
+=======
+>>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
 =======
 >>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
 =======
@@ -60,7 +69,10 @@ Objects {
           String: "Npc Down Camp"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d15580227e5acfbdb3520f2db7f2ebbf83542604
+=======
+>>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
 =======
 >>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
 =======
@@ -72,10 +84,13 @@ Objects {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             Y: 150
             Z: -150
 =======
 >>>>>>> d15580227e5acfbdb3520f2db7f2ebbf83542604
+=======
+>>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
 =======
 >>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
 =======
@@ -93,10 +108,14 @@ Objects {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       Id: 8851311647763733831
 =======
       Id: 4658074148809560670
 >>>>>>> d15580227e5acfbdb3520f2db7f2ebbf83542604
+=======
+      Id: 4658074148809560670
+>>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
 =======
       Id: 4658074148809560670
 >>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
