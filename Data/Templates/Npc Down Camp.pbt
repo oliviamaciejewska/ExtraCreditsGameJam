@@ -44,6 +44,12 @@
           }
         }
         ParentId: 15696987775507161530
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Team"
+            Int: 0
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -116,7 +122,7 @@
       }
       Objects {
         Id: 6820319603459978638
-        Name: "Minion Spawn Point"
+        Name: "Spawn Point"
         Transform {
           Location {
             X: -2650
