@@ -22,7 +22,10 @@ Objects {
   ChildIds: 9787735103849288229
   ChildIds: 3435171065999402693
 <<<<<<< HEAD
+<<<<<<< HEAD
   ChildIds: 11079301955009945878
+=======
+>>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
 =======
 >>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
   UnregisteredParameters {
@@ -37,6 +40,7 @@ Objects {
   }
 }
 Objects {
+<<<<<<< HEAD
 <<<<<<< HEAD
   Id: 11079301955009945878
   Name: "BasicPlayerRifle"
@@ -81,6 +85,8 @@ Objects {
   }
 }
 Objects {
+=======
+>>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
 =======
 >>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
   Id: 3435171065999402693
@@ -239,12 +245,15 @@ Objects {
           String: "StaticPlayerEquipmentRifle"
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         Overrides {
           Name: "cs:EquipmentTemplate"
           AssetReference {
             Id: 589569617274327960
           }
         }
+=======
+>>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
 =======
 >>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
       }

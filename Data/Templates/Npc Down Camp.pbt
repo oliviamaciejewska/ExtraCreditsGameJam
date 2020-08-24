@@ -47,6 +47,7 @@
         ParentId: 15696987775507161530
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ChildIds: 9934369115054944617
         ChildIds: 773917075511288466
         UnregisteredParameters {
@@ -54,6 +55,8 @@
             Name: "cs:RespawnDelay"
             Float: 1
 =======
+=======
+>>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
 =======
 >>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
         Collidable_v2 {
@@ -110,7 +113,10 @@
         Id: 6820319603459978638
         Name: "Minion Spawn Point"
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d15580227e5acfbdb3520f2db7f2ebbf83542604
+=======
+>>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
 =======
 >>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
         Transform {

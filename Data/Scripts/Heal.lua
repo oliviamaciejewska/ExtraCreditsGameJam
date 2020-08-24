@@ -1,7 +1,11 @@
 ﻿local npc = script.parent:FindChildByType("AnimatedMesh")
 local healTrigger = script.parent.parent:FindChildByType("Trigger")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+
+>>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
 
 >>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
 
@@ -25,6 +29,9 @@ local function OnNpcInteraction()
 	npc.animationStance = "unarmed_idle_relaxed"
 
 
+<<<<<<< HEAD
+>>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
+=======
 >>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
 end
 
