@@ -21,6 +21,7 @@ Objects {
   ChildIds: 18134902209994698387
   ChildIds: 9787735103849288229
   ChildIds: 3435171065999402693
+  ChildIds: 8098846583130494672
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -30,6 +31,32 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 8098846583130494672
+  Name: "Sounds"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Sounds"
   }
 }
 Objects {
