@@ -16,11 +16,11 @@
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 2433481049109981081
         ChildIds: 6871858875729270905
         ChildIds: 11142652575818721706
         ChildIds: 4133080813203224396
         ChildIds: 6924631055937723350
+        ChildIds: 210692182692099769
         UnregisteredParameters {
           Overrides {
             Name: "cs:EnableAim"
@@ -40,6 +40,10 @@
           }
           Overrides {
             Name: "cs:AimZoomDistance"
+            Int: 100
+          }
+          Overrides {
+            Name: "cs:HeadshotDamage"
             Int: 100
           }
         }
@@ -96,9 +100,8 @@
             ReticleType {
               Value: "mc:ereticletype:crosshair"
             }
-            MaxAmmo: 60
+            MaxAmmo: 20
             AmmoType: "rounds"
-            IsFiniteAmmo: true
             MultiShot: 1
             ProjectileSpeed: 20000
             ProjectileLifeSpan: 10
@@ -120,110 +123,6 @@
             WeaponTrajectoryMode {
               Value: "mc:eweapontrajectorymode:muzzletolooktarget"
             }
-          }
-        }
-      }
-      Objects {
-        Id: 2433481049109981081
-        Name: "Yeet"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 14514439793178878267
-        ChildIds: 11935772504346402484
-        UnregisteredParameters {
-        }
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Ability {
-          IsEnabled: true
-          CastPhaseSettings {
-            Duration: 0.15
-            CanMove: true
-            CanJump: true
-            CanRotate: true
-            PreventOtherAbilities: true
-            IsTargetDataUpdated: true
-            Facing_V2 {
-              Value: "mc:eabilitysetfacing:aim"
-            }
-          }
-          ExecutePhaseSettings {
-            Duration: 0.3
-            CanMove: true
-            CanJump: true
-            CanRotate: true
-            PreventOtherAbilities: true
-            IsTargetDataUpdated: true
-            Facing_V2 {
-              Value: "mc:eabilitysetfacing:aim"
-            }
-          }
-          RecoveryPhaseSettings {
-            Duration: 0.2
-            CanMove: true
-            CanJump: true
-            CanRotate: true
-            PreventOtherAbilities: true
-            IsTargetDataUpdated: true
-            Facing_V2 {
-              Value: "mc:eabilitysetfacing:none"
-            }
-          }
-          CooldownPhaseSettings {
-            Duration: 1
-            CanMove: true
-            CanJump: true
-            CanRotate: true
-            IsTargetDataUpdated: true
-            Facing_V2 {
-              Value: "mc:eabilitysetfacing:none"
-            }
-          }
-          Animation: "1hand_melee_shield_bash"
-          KeyBinding_v2 {
-            Value: "mc:egameaction:extraaction_01"
-          }
-        }
-      }
-      Objects {
-        Id: 11935772504346402484
-        Name: "YeetAbilityServer"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 2433481049109981081
-        WantsNetworking: true
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Script {
-          ScriptAsset {
-            Id: 14484033545554057014
           }
         }
       }
@@ -1222,6 +1121,88 @@
         Script {
           ScriptAsset {
             Id: 14191581734022880948
+          }
+        }
+      }
+      Objects {
+        Id: 210692182692099769
+        Name: "ServerContext"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 14514439793178878267
+        ChildIds: 11723162676466261345
+        ChildIds: 15472084480997356000
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        NetworkContext {
+          Type: Server
+        }
+      }
+      Objects {
+        Id: 11723162676466261345
+        Name: "WeaponAimServer_1"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 210692182692099769
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 5271215216143708871
+          }
+        }
+      }
+      Objects {
+        Id: 15472084480997356000
+        Name: "WeaponDamageServerShoot"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 210692182692099769
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 10940781301666939278
           }
         }
       }
