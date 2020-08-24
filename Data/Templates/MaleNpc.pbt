@@ -15,7 +15,7 @@
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 9787735103849288229
         ChildIds: 15586844076518198629
         ChildIds: 5025781033435867175
         UnregisteredParameters {
@@ -63,6 +63,7 @@
           }
         }
         ParentId: 14795800877796877819
+        ChildIds: 15074060187008770264
         UnregisteredParameters {
         }
         WantsNetworking: true
@@ -81,6 +82,34 @@
           }
           TriggerShape_v2 {
             Value: "mc:etriggershape:capsule"
+          }
+        }
+      }
+      Objects {
+        Id: 15074060187008770264
+        Name: "HealServer"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 15586844076518198629
+        WantsNetworking: true
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 13664768874240926571
           }
         }
       }
@@ -162,6 +191,7 @@
         }
         ParentId: 5025781033435867175
         ChildIds: 1136543645111989052
+        ChildIds: 13920246703225750415
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_Detail1:id"
@@ -229,7 +259,7 @@
         }
         AudioInstance {
           AudioAsset {
-            Id: 11816225537595997241
+            Id: 3358108258735476445
           }
           AutoPlay: true
           Repeat: true
@@ -239,6 +269,38 @@
           EnableOcclusion: true
           IsSpatializationEnabled: true
           IsAttenuationEnabled: true
+        }
+      }
+      Objects {
+        Id: 13920246703225750415
+        Name: "effect"
+        Transform {
+          Location {
+            Z: -39.03125
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16349302869364711055
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 17069761961690292468
+          }
+          TeamSettings {
+          }
+          Vfx {
+          }
         }
       }
     }
@@ -252,12 +314,21 @@
       }
     }
     Assets {
-      Id: 11816225537595997241
-      Name: "Female Generic Pain Groan 02 SFX"
+      Id: 3358108258735476445
+      Name: "Male Generic Pain Groan 02 SFX"
       PlatformAssetType: 7
       PrimaryAsset {
         AssetType: "AudioAssetRef"
-        AssetId: "sfx_female_generic_pain_groan_02_Cue_ref"
+        AssetId: "sfx_male_generic_pain_groan_02a_Cue_ref"
+      }
+    }
+    Assets {
+      Id: 17069761961690292468
+      Name: "Basic Explosion VFX"
+      PlatformAssetType: 8
+      PrimaryAsset {
+        AssetType: "VfxBlueprintAssetRef"
+        AssetId: "fxbp_explosion"
       }
     }
     PrimaryAssetId {
