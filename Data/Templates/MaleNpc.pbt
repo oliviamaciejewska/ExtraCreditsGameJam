@@ -100,6 +100,14 @@
           }
         }
         ParentId: 15586844076518198629
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:API"
+            AssetReference {
+              Id: 11974742996071064388
+            }
+          }
+        }
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"

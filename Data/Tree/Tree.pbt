@@ -21,7 +21,8 @@ Objects {
   ChildIds: 18134902209994698387
   ChildIds: 9787735103849288229
   ChildIds: 3435171065999402693
-  ChildIds: 11079301955009945878
+  ChildIds: 13845424955334854979
+  ChildIds: 3302174853567706882
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -34,8 +35,8 @@ Objects {
   }
 }
 Objects {
-  Id: 11079301955009945878
-  Name: "BasicPlayerRifle"
+  Id: 3302174853567706882
+  Name: "Basic Assault Rifle"
   Transform {
     Scale {
       X: 1
@@ -45,19 +46,21 @@ Objects {
   }
   ParentId: 4781671109827199097
   WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 14514439793178878267
+      key: 5545984700063622192
       value {
         Overrides {
           Name: "Name"
-          String: "BasicPlayerRifle"
+          String: "Basic Assault Rifle"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
         }
         Overrides {
           Name: "Position"
@@ -72,8 +75,34 @@ Objects {
       }
     }
     TemplateAsset {
-      Id: 589569617274327960
+      Id: 6070082970934094723
     }
+  }
+}
+Objects {
+  Id: 13845424955334854979
+  Name: "GameplaySettings"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "GameplaySettings"
   }
 }
 Objects {
@@ -235,7 +264,7 @@ Objects {
         Overrides {
           Name: "cs:EquipmentTemplate"
           AssetReference {
-            Id: 589569617274327960
+            Id: 6070082970934094723
           }
         }
       }
@@ -480,7 +509,7 @@ Objects {
     IsDefault: true
     TeamSettings {
       TeamMode_v2 {
-        Value: "mc:eteammode:ffa"
+        Value: "mc:eteammode:teamsvs"
       }
     }
   }

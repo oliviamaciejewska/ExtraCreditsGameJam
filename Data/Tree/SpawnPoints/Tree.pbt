@@ -26,7 +26,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   PlayerSpawnPoint {
-    TeamInt: 4
+    TeamInt: 3
   }
 }
 Objects {
@@ -55,7 +55,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   PlayerSpawnPoint {
-    TeamInt: 3
+    TeamInt: 2
   }
 }
 Objects {
@@ -65,34 +65,6 @@ Objects {
     Location {
       X: -9250
       Y: -650
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13141648567393240325
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  PlayerSpawnPoint {
-    TeamInt: 2
-  }
-}
-Objects {
-  Id: 16813558807825262224
-  Name: "Spawn Point"
-  Transform {
-    Location {
-      Y: -300
     }
     Rotation {
     }
