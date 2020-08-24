@@ -28,25 +28,11 @@
             Int: 0
           }
           Overrides {
-            Name: "cs:isHealed"
-            Bool: false
-          }
-          Overrides {
-            Name: "cs:NpcManager"
-            AssetReference {
-              Id: 10778877952417484583
-            }
-          }
-          Overrides {
             Name: "cs:ObjectId:isrep"
             Bool: true
           }
           Overrides {
             Name: "cs:Team:isrep"
-            Bool: true
-          }
-          Overrides {
-            Name: "cs:isHealed:isrep"
             Bool: true
           }
         }
@@ -77,8 +63,6 @@
           }
         }
         ParentId: 8427878904811658107
-        UnregisteredParameters {
-        }
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
