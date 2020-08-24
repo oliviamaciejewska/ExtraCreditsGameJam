@@ -1,6 +1,1383 @@
 ﻿Name: "StaticObjects"
 RootId: 3435171065999402693
 Objects {
+  Id: 10248215316506489053
+  Name: "Smoke Volume VFX"
+  Transform {
+    Location {
+      X: 300
+      Y: -1750
+      Z: 2150
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3435171065999402693
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2718718240000731422
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
+  }
+}
+Objects {
+  Id: 2819631862104305606
+  Name: "Rusty_Tank_Inanimate"
+  Transform {
+    Location {
+      Y: -13200
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3435171065999402693
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 93512901173732456
+      value {
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -179.999954
+            Roll: 89.9999161
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1249.99512
+            Y: -7234.99561
+            Z: 3100.00146
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 1286407476942469136
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2500
+            Y: -9200
+            Z: 3500
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 23.9270535
+            Yaw: -98.658905
+            Roll: -119.322601
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.3
+            Y: 0.3
+            Z: 0.5
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 3106544122240947486
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2321.63086
+            Y: -9186.98
+            Z: 3589.52661
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 23.9270325
+            Yaw: -98.6588745
+            Roll: -119.322601
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.15
+            Y: 0.15
+            Z: 1.75
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 3161255520933880842
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Rusty_Tank_Inanimate"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: -13200
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4197629013771096212
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2800
+            Y: 20650
+            Z: -1300
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4289905625979695242
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2410.81641
+            Y: -9193.49
+            Z: 3544.76416
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 23.9270325
+            Yaw: -98.6588745
+            Roll: -119.322601
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.2
+            Y: 0.2
+            Z: 0.75
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6707802490108890293
+      value {
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 3.50000024
+            Y: 3
+            Z: 0.75
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10922260129958820572
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1287.57556
+            Y: 17567.8418
+            Z: 7377.42627
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 26.5916939
+            Yaw: 4.17428112
+            Roll: -63.0280151
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11540816148038146867
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1288.95251
+            Y: 17558.8066
+            Z: 7381.48193
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 26.5916939
+            Yaw: 4.17428112
+            Roll: -63.0280151
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14890810518349632240
+      value {
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Roll: 89.9999542
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15944074420057081995
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1288.95251
+            Y: 17558.8066
+            Z: 7381.48193
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 26.5916939
+            Yaw: 4.17428112
+            Roll: -63.0280151
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1912172327843670206
+    }
+  }
+}
+Objects {
+  Id: 3050130822868345251
+  Name: "Rusty_Tank_Inanimate"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3435171065999402693
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 93512901173732456
+      value {
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -179.999954
+            Roll: 89.9999161
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 3161255520933880842
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Rusty_Tank_Inanimate"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: -13200
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4197629013771096212
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1200
+            Y: 16750
+            Z: -840
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6707802490108890293
+      value {
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 3.50000024
+            Y: 3
+            Z: 0.75
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10922260129958820572
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1200
+            Y: 16750
+            Z: -850
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11540816148038146867
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1200
+            Y: 16750
+            Z: -840
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14890810518349632240
+      value {
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Roll: 89.9999542
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15944074420057081995
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1200
+            Y: 16750
+            Z: -840
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1912172327843670206
+    }
+  }
+}
+Objects {
+  Id: 12411335081298983742
+  Name: "Smoke Volume VFX"
+  Transform {
+    Location {
+      X: -2500
+      Y: -3900
+      Z: 2400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3435171065999402693
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2718718240000731422
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
+  }
+}
+Objects {
+  Id: 8697578402452826682
+  Name: "Rusty_AA_Gun"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3435171065999402693
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1194993600998321217
+      value {
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 0.435287923
+            Yaw: 0.0190188438
+            Roll: 4.98114538
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3850
+            Y: -4555
+            Z: 2350
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 1830537868940064017
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 4203.6875
+            Y: -400
+            Z: 1750
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 4.82931232
+            Yaw: 178.702652
+            Roll: 74.9452
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 1896956025422913642
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4067.50659
+            Y: -4538.36816
+            Z: 2400
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -50.5137939
+            Yaw: 23.4319439
+            Roll: 128.435486
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 2186232403745707114
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 4100.95117
+            Y: -100
+            Z: 1770
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -7.77474976
+            Yaw: 89.3924637
+            Roll: 19.6581516
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4370593696402298636
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3700.51709
+            Y: -4605.10254
+            Z: 2337.88184
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -84.9995728
+            Yaw: -84.9993591
+            Roll: 84.999588
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4725470549293240903
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3700.52295
+            Y: -4605.09668
+            Z: 2337.88428
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 85.0001602
+            Yaw: 95.0007172
+            Roll: 95.00103
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4800399937635455119
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 4100.95117
+            Y: -100
+            Z: 1770
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -7.77478027
+            Yaw: 89.3923874
+            Roll: -70.3412476
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4812759604185266191
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3849.93896
+            Y: -4654.9834
+            Z: 2351.51465
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 0.435287923
+            Yaw: 0.019018868
+            Roll: 4.98115063
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4895637354645621572
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4159.11035
+            Y: -4696.59717
+            Z: 2350
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 0.435287923
+            Yaw: -29.9809875
+            Roll: 4.98118305
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6589565589141070408
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3850.34
+            Y: -4690.06348
+            Z: 2450
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -59.1951
+            Yaw: -8.42453
+            Roll: -170.238251
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7373826909022759760
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 4350
+            Y: 350
+            Z: 1750
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -4.32901
+            Yaw: 87.4949417
+            Roll: -59.9053345
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7536332680450656736
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 4350
+            Y: 350
+            Z: 1750
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -4.32901
+            Yaw: 87.4949341
+            Roll: 30.0945358
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9251204354449426293
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 4287.73975
+            Y: -295.317261
+            Z: 1680
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 2.04905664e-05
+            Yaw: 174.999786
+            Roll: -59.9995422
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9278053259862845573
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3999.41333
+            Y: -4604.89746
+            Z: 2363.63086
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -84.9996948
+            Yaw: -84.9994812
+            Roll: 84.9995193
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13766715986985619558
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3700.51709
+            Y: -4605.10254
+            Z: 2337.88184
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -84.9995728
+            Yaw: -84.9993591
+            Roll: 84.999588
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15994184237658435034
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3849.88721
+            Y: -4729.99
+            Z: 2352.64844
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 9.40097618
+            Yaw: 0.807917178
+            Roll: 95.048645
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17258134916942638935
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -26.4482422
+            Y: 4147.59814
+            Z: -600
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 84.9996643
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17575850139693075964
+      value {
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 84.9991455
+            Yaw: 94.9993439
+            Roll: 4.99923754
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3850
+            Y: -4555
+            Z: 2350
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17841572099590538693
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4159.22266
+            Y: -4516.61719
+            Z: 2350
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 0.435287923
+            Yaw: 5.01901388
+            Roll: 4.98115492
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17972886959006689250
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Rusty_AA_Gun"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1544286005678899195
+    }
+  }
+}
+Objects {
+  Id: 2817538657148393447
+  Name: "Rusty_AA_Gun"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3435171065999402693
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1830537868940064017
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2079.49829
+            Y: 327.673828
+            Z: 1937.67407
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -6.2885437
+            Yaw: 61.3389
+            Roll: -79.7675171
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 2186232403745707114
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1550
+            Y: 173.100555
+            Z: 1700
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 6.43700218
+            Yaw: 33.2599
+            Roll: 143.874832
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4800399937635455119
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1550
+            Y: 173.100555
+            Z: 1700
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 6.43671513
+            Yaw: 33.2595863
+            Roll: 53.8756523
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7373826909022759760
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2150
+            Z: 1850
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -24.0117798
+            Yaw: -61.1553345
+            Roll: 61.5966454
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7536332680450656736
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2150
+            Z: 1850
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -24.0117188
+            Yaw: -61.1548767
+            Roll: 151.596115
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9251204354449426293
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2184.25269
+            Y: 232.945648
+            Z: 1879.76953
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -35.9316711
+            Yaw: 37.4533272
+            Roll: -77.5450439
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17258134916942638935
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1176.00342
+            Y: -1191.47278
+            Z: -3660
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -14.1288147
+            Yaw: -63.0578308
+            Roll: 37.2380409
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17972886959006689250
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Rusty_AA_Gun"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1544286005678899195
+    }
+  }
+}
+Objects {
+  Id: 9362392551311740725
+  Name: "Rusty_AA_Gun"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3435171065999402693
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1830537868940064017
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3800
+            Y: -4605
+            Z: 2400
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 89.9999542
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 2186232403745707114
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3550
+            Y: -4480
+            Z: 2400
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Roll: 89.9999619
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4800399937635455119
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3550
+            Y: -4480
+            Z: 2400
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7373826909022759760
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3550
+            Y: -4730
+            Z: 2400
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7536332680450656736
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3550
+            Y: -4730
+            Z: 2400
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Roll: 89.9999542
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9251204354449426293
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3750
+            Y: -4685
+            Z: 2280
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17258134916942638935
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 300
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17972886959006689250
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Rusty_AA_Gun"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1544286005678899195
+    }
+  }
+}
+Objects {
+  Id: 4979367612656484315
+  Name: "Bone Human Skull 01"
+  Transform {
+    Location {
+      X: 1750
+      Y: 350
+      Z: 1750
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3435171065999402693
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14850307107204089020
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
   Id: 2193507599362394889
   Name: "Smoke Volume VFX"
   Transform {
@@ -2530,9 +3907,9 @@ Objects {
   Name: "Wooden Barrel"
   Transform {
     Location {
-      X: 1850
+      X: 1800
       Y: 450
-      Z: 1850
+      Z: 1750
     }
     Rotation {
     }
@@ -3159,7 +4536,7 @@ Objects {
   Transform {
     Location {
       X: -2600
-      Y: -4550
+      Y: -4200
       Z: 2250
     }
     Rotation {
@@ -3237,7 +4614,7 @@ Objects {
   Transform {
     Location {
       X: -4500
-      Y: -4500
+      Y: -4550
       Z: 2250
     }
     Rotation {
@@ -3780,8 +5157,8 @@ Objects {
   Name: "Simple Crate 150cm"
   Transform {
     Location {
-      X: 1500
-      Y: -2300
+      X: 1450
+      Y: -2350
       Z: 1750
     }
     Rotation {
@@ -4604,7 +5981,7 @@ Objects {
   Transform {
     Location {
       X: -3850
-      Y: -6050
+      Y: -6100
       Z: 3050
     }
     Rotation {

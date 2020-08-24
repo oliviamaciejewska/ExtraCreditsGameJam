@@ -118,6 +118,7 @@ Objects {
   Name: "Terrain"
   Transform {
     Location {
+      Y: 100
     }
     Rotation {
     }
