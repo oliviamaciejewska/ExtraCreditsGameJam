@@ -2,9 +2,11 @@
 local healTrigger = script.parent.parent:FindChildByType("Trigger")
 
 
+
 local function OnNpcInteraction()
 	npc:StopAnimations()
 	npc.animationStance = "unarmed_idle_relaxed"
+
 
 end
 
