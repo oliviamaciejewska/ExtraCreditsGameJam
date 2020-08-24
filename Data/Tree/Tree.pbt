@@ -21,19 +21,7 @@ Objects {
   ChildIds: 18134902209994698387
   ChildIds: 9787735103849288229
   ChildIds: 3435171065999402693
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   ChildIds: 11079301955009945878
-=======
->>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
-=======
->>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
-=======
->>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
-=======
->>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -46,10 +34,6 @@ Objects {
   }
 }
 Objects {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   Id: 11079301955009945878
   Name: "BasicPlayerRifle"
   Transform {
@@ -93,14 +77,6 @@ Objects {
   }
 }
 Objects {
-=======
->>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
-=======
->>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
-=======
->>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
-=======
->>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
   Id: 3435171065999402693
   Name: "StaticObjects"
   Transform {
@@ -256,24 +232,12 @@ Objects {
           Name: "Name"
           String: "StaticPlayerEquipmentRifle"
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         Overrides {
           Name: "cs:EquipmentTemplate"
           AssetReference {
             Id: 589569617274327960
           }
         }
-=======
->>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
-=======
->>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
-=======
->>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
-=======
->>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
       }
     }
     TemplateAsset {

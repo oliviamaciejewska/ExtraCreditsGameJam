@@ -19,10 +19,6 @@
         ChildIds: 6871858875729270905
         ChildIds: 11142652575818721706
         ChildIds: 4133080813203224396
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         ChildIds: 6924631055937723350
         ChildIds: 210692182692099769
         UnregisteredParameters {
@@ -51,18 +47,6 @@
             Int: 100
           }
         }
-=======
-        ChildIds: 7031835285298888375
->>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
-=======
-        ChildIds: 7031835285298888375
->>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
-=======
-        ChildIds: 7031835285298888375
->>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
-=======
-        ChildIds: 7031835285298888375
->>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -116,32 +100,8 @@
             ReticleType {
               Value: "mc:ereticletype:crosshair"
             }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
             MaxAmmo: 20
             AmmoType: "rounds"
-=======
-            MaxAmmo: 60
-            AmmoType: "rounds"
-            IsFiniteAmmo: true
->>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
-=======
-            MaxAmmo: 60
-            AmmoType: "rounds"
-            IsFiniteAmmo: true
->>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
-=======
-            MaxAmmo: 60
-            AmmoType: "rounds"
-            IsFiniteAmmo: true
->>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
-=======
-            MaxAmmo: 60
-            AmmoType: "rounds"
-            IsFiniteAmmo: true
->>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
             MultiShot: 1
             ProjectileSpeed: 20000
             ProjectileLifeSpan: 10
@@ -345,10 +305,6 @@
         }
       }
       Objects {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         Id: 6924631055937723350
         Name: "ClientContext"
         Transform {
@@ -376,14 +332,6 @@
         }
       }
       Objects {
-=======
->>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
-=======
->>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
-=======
->>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
-=======
->>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
         Id: 7031835285298888375
         Name: "Client Art"
         Transform {
@@ -397,36 +345,10 @@
             Z: 1
           }
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         ParentId: 6924631055937723350
         ChildIds: 13718172714785316867
         UnregisteredParameters {
         }
-=======
-=======
->>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
-=======
->>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
-=======
->>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
-        ParentId: 14514439793178878267
-        ChildIds: 13718172714785316867
-        UnregisteredParameters {
-        }
-        WantsNetworking: true
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
-=======
->>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
-=======
->>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
-=======
->>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -1149,10 +1071,6 @@
           }
         }
       }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
       Objects {
         Id: 11822785259099290534
         Name: "Scripts"
@@ -1288,14 +1206,6 @@
           }
         }
       }
-=======
->>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
-=======
->>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
-=======
->>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
-=======
->>>>>>> parent of df6cda8... Merge branch 'master' of https://github.com/oliviamaciejewska/ExtraCreditsGameJam
     }
     Assets {
       Id: 9826710443425479508
