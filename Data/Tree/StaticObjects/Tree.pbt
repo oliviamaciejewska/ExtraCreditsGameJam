@@ -2112,8 +2112,8 @@ Objects {
   Name: "Smoke Volume VFX"
   Transform {
     Location {
-      X: 4400
-      Y: 200
+      X: 4200
+      Y: -350
       Z: 1750
     }
     Rotation {
